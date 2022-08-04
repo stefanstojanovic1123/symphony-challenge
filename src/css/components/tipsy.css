@@ -1,0 +1,73 @@
+.Tipsy {
+	position: absolute;
+	z-index: 1070;
+	line-height: 16px;
+	font-size: 12px;
+	pointer-events: none;
+}
+.Tipsy.top {
+	margin-top: -3px;
+	padding: 5px 0;
+}
+.Tipsy.right {
+	margin-left: 3px;
+	padding: 0 5px;
+}
+.Tipsy.bottom {
+	margin-top: 3px;
+	padding: 5px 0;
+}
+.Tipsy.left {
+	margin-left: -3px;
+	padding: 0 5px;
+}
+.Tipsy-inline-wrapper {
+	display: inline;
+}
+.Tipsy-inlineblock-wrapper {
+	display: inline-block;
+}
+.Tipsy-inner {
+	background-color: #3a3939;
+	border-radius: 4px;
+	color: #ffffff;
+	max-width: 200px;
+	padding: 3px 8px;
+	text-align: center;
+}
+.Tipsy-arrow {
+	border-color: transparent;
+	border-style: solid;
+	height: 0;
+	position: absolute;
+	width: 0;
+	pointer-events: none;
+}
+.Tipsy.top .Tipsy-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #3a3939;
+}
+.Tipsy.right .Tipsy-arrow {
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	border-width: 5px 5px 5px 0;
+	border-right-color: #3a3939;
+}
+.Tipsy.left .Tipsy-arrow {
+	top: 50%;
+	right: 0;
+	margin-top: -5px;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #3a3939;
+}
+.Tipsy.bottom .Tipsy-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 0 5px 5px;
+	border-bottom-color: #3a3939;
+}

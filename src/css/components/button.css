@@ -1,0 +1,57 @@
+.button {
+	border: 1px solid theme('colors.primary.DEFAULT');
+	color: theme('colors.primary.DEFAULT');
+	border-radius: 4px;
+	padding: 0px 11px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 34px;
+	min-height: 34px;
+	font-weight: 600;
+	font-size: 12px;
+	transition: all 0.15s linear;
+	text-transform: uppercase;
+	display: inline-block;
+	box-shadow: 0px 0px 2px 0px theme('colors.shadow.dark');
+}
+.button-primary {
+	background-color: theme('colors.primary.DEFAULT');
+	color: #fff;
+}
+
+.button:hover,
+.button:focus {
+	color: #fff;
+	background-color: theme('colors.primary.dark');
+	box-shadow: 0px 0px 2px 0px theme('colors.shadow.darker');
+}
+fieldset:disabled .button,
+.button.disabled,
+.button:disabled {
+	color: white;
+	border-color: theme('colors.border.disabled');
+	cursor: auto;
+	background-color: theme('colors.border.disabled')!important;
+}
+.button-small {
+	height: 24px;
+	line-height: 24px;
+	min-height: 24px;
+	font-size: 13px;
+}
+
+.button-full {
+	width: 100%;
+	min-width: 110px;
+	padding: 8px 11px;
+	text-transform: uppercase;
+}
+
+.logout-button {
+	cursor: pointer;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 2px;
+	height: 14px;
+	line-height: 14px;
+}
